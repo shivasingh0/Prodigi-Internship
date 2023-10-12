@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+nav {
+  background-color: #d9d7d7;
+  width: 350px;
+  height: 100vh;
+}
+nav ul {
+  padding: 50px;
+  list-style: none;
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  font-family: "Rubik", sans-serif;
+}
+nav ul li {
+  padding: 20px 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  width: 85vw;
+  height: 100vh;
+  padding: 23px;
+}
+.infoContainer {
+  width: 70vw;
+  height: 50vh;
+  margin: 15vh auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto Slab", serif;
+  font-family: "Source Code Pro", monospace;
+}
+.hello {
+  font-size: 60px;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+.about {
+  font-size: 40px;
+}
+.moreAbout {
+  font-family: "Rubik", sans-serif;
+  margin-top: 22px;
+}
+.button {
+  margin-top: 34px;
+}
+.button button {
+  padding: 5px 10px;
+  border-radius: 31px;
+  margin: 0 10px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.button button:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+.devPic img {
+  height: 50vh;
+}
+
+/* _____________________________________Contact form ____________________________*/
+
+.contactForm {
+  margin: 0 100px;
+}
+.contactForm h1 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 900;
+  margin-top: 120px;
+}
+form {
+  width: auto;
+  margin-top: 30px;
+  font-family: "Rubik", sans-serif;
+}
+.clintDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+input {
+  width: 250px;
+  margin: 2px 0 4px 0;
+  padding: 2px;
+}
+textarea {
+  width: 250px;
+  margin: 2px 0 4px 0;
+  padding: 4px;
+}
+.phone {
+  margin-top: 5px;
+}
+#emailHelp {
+  font-size: 10px;
+  font-weight: bold;
+}
+.checkDiv{
+  display:flex ;
+  gap: 5px;
+}
+#checkbox{
+  width: 10px;
+}
+.checkBoxText{
+  font-size: 13px;
+}
+
+/* ____________________________________Blog____________________________________ */
+h1{
+  margin: 20px;
+  font-family: "Rubik", sans-serif;
+}
+.blogItem{
+  margin: 10px;
+  padding: 5px 15px;
+}
+h2{
+  font-family: "Rubik", sans-serif;
+}
+p{
+  font-family: "Source Code Pro", monospace;
+}
+.button-sm button{
+  padding: 3px 7px;
+  border-radius: 31px;
+  margin: 7px 0;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.button-sm button:hover {
+  color: dodgerblue;
+  background-color: white;
+}

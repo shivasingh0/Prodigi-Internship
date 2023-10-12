@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    max-width: 1440px;
+    overflow: hidden;
+    background-color: #F0F4F5;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+header nav img{
+    height: 50px;
+    width: 150px;
+    margin-left: 130px;
+}
+header nav .anker{
+    display: flex;
+    gap: 40px;
+    margin-right: 150px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+header nav a{
+    text-decoration: none;
+    color: #000000;
+}
+ main .scope{
+  position: absolute;
+  width: 90%;
+  top: -60px;
+  right: -25%;
+  z-index: -1;
+} 
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items:self-start;
+    margin-top: 120px;
+}
+main .left{
+    margin-left: 100px;
+    position: relative;
+    width: 50%;
+}
+main h1{
+    font-size: 75px;
+    position: relative;
+    font-weight: 900;
+}
+main p{
+    color: #7C7C7C;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+main .bottomAngle{
+    margin-left: 82%;
+    margin-top: 20px;
+}
+main button{
+    background-color: #20BC7E;
+    padding: 15px 30px;
+    border: #F0F4F5;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 50%;
+}
+main .green{
+    right: 0;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    margin-left: 58%;
+    bottom: 50px;
+}
+main .yellow{
+    right: 0;
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    margin-left: 62%;
+    margin-top: 50px;
+    bottom: 50px;
+}
+main .doctor{
+    right: 0;
+    position: relative;
+    width: 500px;
+    height: 700px;
+    margin-left: 20%;
+    margin-top: 50px;
+    bottom: 200px;
+}

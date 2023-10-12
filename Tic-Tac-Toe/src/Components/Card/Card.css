@@ -1,0 +1,7 @@
+.card{
+    background-color: var(--skyblue) ;
+    border: 1px solid black;
+    width: 1rem;
+    padding: 5rem;
+    border-radius: 10px;
+}

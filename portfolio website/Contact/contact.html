@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Intro/intro.html">My Intro</a></li>
+          <li><a href="../Experience/experience.html">Experience</a></li>
+        <li><a href="../Project/blog.html">Blog</a></li>
+        <li><a href="/">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <div class="contactForm">
+        <h1>Contact me for work enquiry</h1>
+        <form>
+          <div class="clintDetails">
+            <label for="clintName" class="fullName">Full Name</label>
+            <input type="text" class="form-control" id="clintName" />
+          </div>
+          <div class="clintDetails">
+            <label for="clintEmail" class="email">Email address</label>
+            <input type="email" placeholder="abc@email.com" class="form-control" id="clintEmail"/>
+            <div id="emailHelp" class="form-text">
+              We'll never share your phone and email with anyone else.
+            </div>
+          </div>
+          <div class="clintDetails">
+            <label for="clintPhone" class="phone">Phone</label>
+            <input type="phone" class="form-control" id="clintPhone" />
+          </div>
+          <div class="clintDetails">
+            <label for="clintEnquiry" class="enquiry">Enquiry</label>
+            <textarea name="enquiry" id="clintEnquiry"></textarea>
+          </div>
+          <div class="checkDiv">
+            <input type="checkbox" class="form-check-input" id="checkbox" />
+            <label class="checkBoxText" for="exampleCheck1">Check if you want to work with me</label>
+          </div>
+          <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

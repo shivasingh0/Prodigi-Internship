@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    max-width: 1440px;
+    overflow: hidden;
+    background-color: #F0F4F5;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+header nav img{
+    height: 50px;
+    width: 150px;
+    margin-left: 130px;
+}
+header nav .anker{
+    display: flex;
+    gap: 40px;
+    margin-right: 150px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+header nav a{
+    text-decoration: none;
+    color: #000000;
+}
+main .text{
+    margin-top: 13%;
+    text-align: center;
+}
+main .text h1{
+    font-size: 35px;
+    color: #20BC7E;
+    font-weight: 900;
+}
+main .text p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+main .achivement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+main .achivement .color{
+    color: #20BC7E;
+    font-weight: 900;
+    font-size: 30px;
+}
+main .achivement div{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
